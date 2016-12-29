@@ -88,7 +88,7 @@ class PreferenceManager(models.Manager):
                 {
                     'title': title,
                     'quantity': 1,
-                    'currency_id': 'ARS',
+                    'currency_id': 'BRL',
                     # In case we get something like Decimal:
                     'unit_price': float(price),
                 }
